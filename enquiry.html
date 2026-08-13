@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Enquiry - Harmony Farms</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <img src="images/logo.PNG" alt="Harmony Farms Primary Logo" width="700">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h1>Online Enquiry & Bookings</h1>
+            <p>Use the form below for product enquiries, wholesale requests, farm tour bookings, or CSA subscriptions.</p>
+            
+            <img src="images/onlinebooking.jpg" alt="Harmony Farms customer service representative" width="500">
+
+            <br><br>
+
+            <!-- Product and Booking Form with Standard HTML Validation -->
+            <form action="#" method="post">
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="e.g. Mosa Chauke" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="021 555 0192" required>
+                </p>
+
+                <p>
+                    <label for="enquiry_type">Enquiry Category:</label><br>
+                    <select id="enquiry_type" name="enquiry_type">
+                        <option value="csa">CSA Programme Subscription</option>
+                        <option value="wholesale">Wholesale / Restaurant Supply Request</option>
+                        <option value="tour">Farm Tour Booking</option>
+                        <option value="general">General Question</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message / Order Details:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="45" placeholder="Specify quantity, date preference, or details..." required></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Submit Enquiry">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Harmony Farms. All Rights Reserved.</p>
+        <p>
+            <a href="https://facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+</html>
