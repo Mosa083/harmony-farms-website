@@ -7,7 +7,7 @@
 
 ---
 
-## 🌾 Project Overview
+##  Project Overview
 
 Harmony Farms is a family-owned 15-hectare organic farming operation located in the Western Cape, South Africa, established in 2010. The farm specializes in producing high-quality, chemical-free, pesticide-free produce supplied directly to local consumers, regional restaurants, and Community Supported Agriculture (CSA) subscribers.
 
@@ -15,7 +15,7 @@ This repository contains the complete 5-page static website developed for Harmon
 
 ---
 
-## 📄 Pages Included
+##  Pages Included
 
 The website consists of 5 main web pages structured using standard HTML5:
 
@@ -43,7 +43,7 @@ The website consists of 5 main web pages structured using standard HTML5:
 
 ---
 
-## 🚀 How to Run the Project Locally
+##  How to Run the Project Locally
 
 1. **Clone or Download the Repository:**
    ```bash
